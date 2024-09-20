@@ -13,4 +13,3 @@ def load_statement(financial_year: str) -> pd.DataFrame:
     logger.error(f"Unable to fetch statement file for the provided: {financial_year}, exiting.")
     logger.error(f"Please make sure that the file exists on path: {file_path}")
     exit(-1)
-
